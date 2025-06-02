@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "IK~yNoEBbqL#8ODB9YAHYCWw2D3SrVnkTxKuwgx-S3345Ff-BSO_tm8",
+SESSION_ID: process.env.SESSION_ID || "IK~bVZzHIaK#iUtwV1reZwkJ3MfDU9Tloj-ln0g7kinzxDh6Ein05OA",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -53,7 +53,7 @@ AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "private",
+MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "truee",
 // make anti link true,false for groups 
